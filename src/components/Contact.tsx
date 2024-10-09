@@ -92,7 +92,7 @@ const Contact: React.FC = () => {
 
             <div className='bg-white/10 p-6 rounded-xl max-w-[550px]'>
                 <h2 className='text-5xl font-bold text-orange-400 mb-4'>Let`s connect</h2>
-                <p className='text-white/70 mb-6'>Send me a message and let's schedule a call!</p>
+                <p className='text-white/70 mb-6'>Send me a message and let`s schedule a call!</p>
                 <form className='space-y-4' action="https://getform.io/f/bxojmjna" method="POST" onSubmit={handleSubmit}>
                     <div className='grid md:grid-cols-2 gap-4'>
                         <input
