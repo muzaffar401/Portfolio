@@ -42,7 +42,7 @@ const projects = [
     },
     {
         title: "Space Portfolio Website",
-        desc: "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum est consequatur architecto distinctio laboriosam, ipsum officiis necessitatibus dignissimos nobis exercitationem, maxime voluptatibus deserunt iste tempore dolorum numquam tempora sequi saepe!",
+        desc: "A portfolio website showcases an individual's work, skills, and accomplishments, serving as a digital resume for creative professionals. It features sections for projects, case studies, and testimonials to attract potential clients or employers. This platform allows users to highlight their expertise and unique style effectively.",
         devStack: "NEXT JS, TAILWIND CSS",
         link: "https://space-portfolio-gilt-beta.vercel.app/",
         git: "https://github.com/muzaffar401/space-portfolio.git",
@@ -52,13 +52,13 @@ const projects = [
 
 const Portfolio = () => {
     return (
-        <div className='text-white bg-gradient-to-b from-black to-[#381a5f] py-16 mt-52' id='portfolio'>
+        <div className='text-white bg-gradient-to-b from-black to-[#381a5f] py-1 mt-28 md:mt-36' id='portfolio'>
 
-            <h1 className='text-white text-6xl max-w-[320px] mx-auto font-semibold my-12'>
+            <h1 className='text-white text-6xl max-w-[320px] mx-auto font-semibold my-2'>
                 Selected <span className='text-orange-400'>Projects</span>
             </h1>
 
-            <div className='px-6 md:px-0 max-w-[1000px] mx-auto mt-40 space-y-24'>
+            <div className='px-6 md:px-0 max-w-[1000px] mx-auto mt-10 md:mt-20 space-y-24'>
                 {projects.map((project, index) => (
                     <motion.div
                         key={index}
@@ -81,11 +81,11 @@ const Portfolio = () => {
                             </div>
                         </div>
 
-                        <div className='flex justify-center items-center'>
+                        <div className='flex justify-center items-center mt-7'>
                             <Image
                                 src={project.src}
                                 alt={project.title}
-                                className='h-auto  w-auto object-cover border border-gray-700 rounded'
+                                className='h-auto  w-auto object-cover border border-gray-700 rounded '
                             />
                         </div>
 
