@@ -81,11 +81,11 @@ const Contact: React.FC = () => {
                 <ul className='space-y-4'>
                     <li className='flex items-center'>
                         <Image src={phone} alt='phone' className='h-[110px] w-auto mr-6' />
-                        <p className='text-xl'>+9233-53958045</p>
+                        <p className='md:text-xl'>+9233-53958045</p>
                     </li>
                     <li className='flex items-center'>
                         <Image src={mail} alt='mail' className='h-[110px] w-auto mr-6' />
-                        <p className='text-xl'>ma9400667@gmail.com</p>
+                        <p className='md:text-xl'>ma9400667@gmail.com</p>
                     </li>
                 </ul>
             </div>
